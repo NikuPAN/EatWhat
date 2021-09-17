@@ -36,7 +36,8 @@ namespace EatWhat
             this.comboBox2 = new System.Windows.Forms.ComboBox();
             this.label1 = new System.Windows.Forms.Label();
             this.comboBox3 = new System.Windows.Forms.ComboBox();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnChoose = new System.Windows.Forms.Button();
+            this.btnRandomSuburb = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // title
@@ -45,7 +46,7 @@ namespace EatWhat
             this.title.Font = new System.Drawing.Font("Segoe UI", 19.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
             this.title.Location = new System.Drawing.Point(116, 33);
             this.title.Name = "title";
-            this.title.Size = new System.Drawing.Size(555, 46);
+            this.title.Size = new System.Drawing.Size(541, 45);
             this.title.TabIndex = 0;
             this.title.Text = "What do you want to eat tonight?";
             this.title.Click += new System.EventHandler(this.label1_Click);
@@ -91,10 +92,11 @@ namespace EatWhat
             "Brisbane City",
             "Sunnybank",
             "Toowong",
-            "Garden City"});
+            "Garden City",
+            "Underwood"});
             this.comboBox2.Location = new System.Drawing.Point(124, 267);
             this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(547, 28);
+            this.comboBox2.Size = new System.Drawing.Size(271, 28);
             this.comboBox2.TabIndex = 4;
             // 
             // label1
@@ -121,16 +123,27 @@ namespace EatWhat
             this.comboBox3.TabIndex = 6;
             this.comboBox3.SelectedIndexChanged += new System.EventHandler(this.comboBox3_SelectedIndexChanged);
             // 
-            // button1
+            // btnChoose
             // 
-            this.button1.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.button1.Location = new System.Drawing.Point(401, 356);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(270, 26);
-            this.button1.TabIndex = 7;
-            this.button1.Text = "DON\'T ASK ME, CHOOSE FOR ME!";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.btnChoose.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.btnChoose.Location = new System.Drawing.Point(401, 355);
+            this.btnChoose.Name = "btnChoose";
+            this.btnChoose.Size = new System.Drawing.Size(270, 28);
+            this.btnChoose.TabIndex = 7;
+            this.btnChoose.Text = "DON\'T ASK ME, CHOOSE FOR ME!";
+            this.btnChoose.UseVisualStyleBackColor = true;
+            this.btnChoose.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // btnRandomSuburb
+            // 
+            this.btnRandomSuburb.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.btnRandomSuburb.Location = new System.Drawing.Point(401, 267);
+            this.btnRandomSuburb.Name = "btnRandomSuburb";
+            this.btnRandomSuburb.Size = new System.Drawing.Size(270, 28);
+            this.btnRandomSuburb.TabIndex = 8;
+            this.btnRandomSuburb.Text = "Random Suburb";
+            this.btnRandomSuburb.UseVisualStyleBackColor = true;
+            this.btnRandomSuburb.Click += new System.EventHandler(this.button1_Click_1);
             // 
             // EatWhat
             // 
@@ -138,7 +151,8 @@ namespace EatWhat
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.SteelBlue;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnRandomSuburb);
+            this.Controls.Add(this.btnChoose);
             this.Controls.Add(this.comboBox3);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.comboBox2);
@@ -164,7 +178,8 @@ namespace EatWhat
         private System.Windows.Forms.ComboBox comboBox2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.ComboBox comboBox3;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnChoose;
+        private System.Windows.Forms.Button btnRandomSuburb;
     }
 }
 
