@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\NickPang\\source\\repos\\EatWhat\\EatWhat.csproj": {}
+    "C:\\Users\\YAMATO\\source\\repos\\EatWhat\\EatWhat.csproj": {}
   },
   "projects": {
-    "C:\\Users\\NickPang\\source\\repos\\EatWhat\\EatWhat.csproj": {
+    "C:\\Users\\YAMATO\\source\\repos\\EatWhat\\EatWhat.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\NickPang\\source\\repos\\EatWhat\\EatWhat.csproj",
+        "projectUniqueName": "C:\\Users\\YAMATO\\source\\repos\\EatWhat\\EatWhat.csproj",
         "projectName": "EatWhat",
-        "projectPath": "C:\\Users\\NickPang\\source\\repos\\EatWhat\\EatWhat.csproj",
-        "packagesPath": "C:\\Users\\NickPang\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\NickPang\\source\\repos\\EatWhat\\obj\\",
+        "projectPath": "C:\\Users\\YAMATO\\source\\repos\\EatWhat\\EatWhat.csproj",
+        "packagesPath": "C:\\Users\\YAMATO\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\YAMATO\\source\\repos\\EatWhat\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\NickPang\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\YAMATO\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

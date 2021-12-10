@@ -162,6 +162,7 @@ namespace EatWhat
             this.Controls.Add(this.title);
             this.ForeColor = System.Drawing.SystemColors.HighlightText;
             this.Name = "EatWhat";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "EatWhat v1.0";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
