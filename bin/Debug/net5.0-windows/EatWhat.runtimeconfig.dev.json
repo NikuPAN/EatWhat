@@ -1,8 +1,0 @@
-{
-  "runtimeOptions": {
-    "additionalProbingPaths": [
-      "C:\\Users\\YAMATO\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\YAMATO\\.nuget\\packages"
-    ]
-  }
-}
