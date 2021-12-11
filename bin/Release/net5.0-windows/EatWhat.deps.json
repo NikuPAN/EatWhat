@@ -12,6 +12,11 @@
         },
         "runtime": {
           "EatWhat.dll": {}
+        },
+        "resources": {
+          "en-AU/EatWhat.resources.dll": {
+            "locale": "en-AU"
+          }
         }
       },
       "Microsoft.NETCore.Platforms/1.1.1": {},
