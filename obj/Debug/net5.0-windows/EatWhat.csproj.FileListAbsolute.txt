@@ -24,7 +24,6 @@ C:\Users\YAMATO\Source\Repos\EatWhat\bin\Debug\net5.0-windows\EatWhat.runtimecon
 C:\Users\YAMATO\Source\Repos\EatWhat\bin\Debug\net5.0-windows\EatWhat.dll
 C:\Users\YAMATO\Source\Repos\EatWhat\bin\Debug\net5.0-windows\ref\EatWhat.dll
 C:\Users\YAMATO\Source\Repos\EatWhat\bin\Debug\net5.0-windows\EatWhat.pdb
-C:\Users\YAMATO\Source\Repos\EatWhat\obj\Debug\net5.0-windows\EatWhat.csproj.AssemblyReference.cache
 C:\Users\YAMATO\Source\Repos\EatWhat\obj\Debug\net5.0-windows\EatWhat.EatWhat.resources
 C:\Users\YAMATO\Source\Repos\EatWhat\obj\Debug\net5.0-windows\EatWhat.Properties.Resources.resources
 C:\Users\YAMATO\Source\Repos\EatWhat\obj\Debug\net5.0-windows\EatWhat.csproj.GenerateResource.cache
