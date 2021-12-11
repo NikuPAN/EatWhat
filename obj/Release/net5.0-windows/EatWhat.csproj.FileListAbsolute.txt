@@ -19,3 +19,4 @@ C:\Users\YAMATO\source\repos\EatWhat\obj\Release\net5.0-windows\EatWhat.genrunti
 C:\Users\YAMATO\source\repos\EatWhat\bin\Release\net5.0-windows\en-AU\EatWhat.resources.dll
 C:\Users\YAMATO\source\repos\EatWhat\obj\Release\net5.0-windows\EatWhat.EatWhat.en-AU.resources
 C:\Users\YAMATO\source\repos\EatWhat\obj\Release\net5.0-windows\en-AU\EatWhat.resources.dll
+C:\Users\YAMATO\source\repos\EatWhat\obj\Release\net5.0-windows\EatWhat.csproj.AssemblyReference.cache
